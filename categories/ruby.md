@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Ruby
-permalink: /blog/categories/Ruby/
+permalink: /blog/categories/jekyll/
 ---
 
 <h5> Posts by Category : {{ page.title }} </h5>

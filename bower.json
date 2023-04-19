@@ -1,17 +1,16 @@
 {
-  "name": "devlopr-jekyll",
-  "homepage": "https://github.com/sujaykundu777/devlopr-jekyll",
+  "name": "teteteo619",
+  "homepage": "https://github.com/aratetete0619",
   "authors": [
-    "sujaykundu777 <sujaykundu777@gmail.com>"
+    "teteteo619 <ara.ct0619@gmail.com>"
   ],
-  "description": "A Jekyll Theme Built For Developers",
+  "description": "I've been learning web development in the Apprenticeship course.",
   "main": "",
   "keywords": [
-    "jekyll-theme",
-    "jekyll",
-    "gallery"
+    "teteteo619",
+    "Ruby",
+    "Ruby on Rails"
   ],
-  "license": "MIT",
   "ignore": [
     "**/.*",
     "node_modules",
