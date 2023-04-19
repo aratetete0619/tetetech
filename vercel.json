@@ -1,9 +1,4 @@
 {
-  "functions": {
-    "api/**/*.rb": {
-      "runtime": "vercel-ruby@1.2.0"
-    }
-  },
   "build": {
     "env": {
       "BUNDLER_VERSION": "2.3.26"
@@ -11,22 +6,18 @@
   },
   "builds": [
     {
-      "src": "package.json",
-      "use": "@vercel/static-build",
+      "src": "api/**/*.rb",
+      "use": "@vercel/ruby",
       "config": {
-        "installCommand": "bundle install && yarn install",
-        "buildCommand": "yarn vercel-build"
+        "zeroConfig": true,
+        "includeFiles": "**"
       }
     }
   ],
   "routes": [
     {
-      "src": "/(assets|_includes|_layouts|_posts)/.*",
-      "status": 404
-    },
-    {
-      "src": "/(.*)",
-      "dest": "_site/$1"
+      "src": "/api/(.*)",
+      "dest": "/api/$1"
     }
   ]
 }
