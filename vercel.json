@@ -16,6 +16,18 @@
   ],
   "routes": [
     {
+      "src": "/$",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/about$",
+      "dest": "/about.html"
+    },
+    {
+      "src": "/blog$",
+      "dest": "/blog.html"
+    },
+    {
       "src": "/api/(.*)",
       "dest": "/api/$1"
     }
