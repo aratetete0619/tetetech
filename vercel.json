@@ -2,11 +2,22 @@
   "build": {
     "env": {
       "BUNDLER_VERSION": "2.3.26"
-    },
-    "commands": [
-      "gem install bundler:$BUNDLER_VERSION",
-      "bundle _${BUNDLER_VERSION}_ install",
-      "vercel-ruby-build"
-    ]
-  }
+    }
+  },
+  "builds": [
+    {
+      "src": "api/**/*.rb",
+      "use": "@vercel/ruby",
+      "config": {
+        "zeroConfig": true,
+        "includeFiles": "**"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/$1"
+    }
+  ]
 }
