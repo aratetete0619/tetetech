@@ -1,0 +1,23 @@
+{
+  "build": {
+    "env": {
+      "BUNDLER_VERSION": "2.3.26"
+    }
+  },
+  "builds": [
+    {
+      "src": "Gemfile",
+      "use": "@vercel/static-build",
+      "config": {
+        "zeroConfig": true,
+        "framework": "jekyll"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/public/$1"
+    }
+  ]
+}
