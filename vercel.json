@@ -9,18 +9,19 @@
       "src": "package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "_site"
+        "installCommand": "bundle install && yarn install",
+        "buildCommand": "bundle exec jekyll build"
       }
     }
   ],
   "routes": [
     {
-      "src": "/(about|blog|any-other-page)/?",
-      "dest": "/$1.html"
+      "src": "/(assets|_includes|_layouts|_posts)/.*",
+      "status": 404
     },
     {
       "src": "/(.*)",
-      "dest": "/$1"
+      "dest": "_site/$1"
     }
   ]
 }
