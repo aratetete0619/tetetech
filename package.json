@@ -1,8 +1,12 @@
 {
-  "name": "your-jekyll-project",
+  "name": "teteteo619",
   "version": "1.0.0",
   "scripts": {
-    "build": "jekyll build"
+    "install-deps": "bundle install",
+    "build": "bundle exec jekyll build"
   },
-  "dependencies": {}
+  "engines": {
+    "node": "14.x",
+    "yarn": "1.x"
+  }
 }
