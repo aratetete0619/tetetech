@@ -10,7 +10,7 @@
       "use": "@vercel/static-build",
       "config": {
         "installCommand": "bundle install && yarn install",
-        "buildCommand": "bundle exec jekyll build"
+        "buildCommand": "yarn vercel-build"
       }
     }
   ],
