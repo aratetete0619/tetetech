@@ -4,7 +4,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   I am currently learning as a web developer under the Apprenticeship Program.
 
 url: "https://643fc7b70046b40de7274414--merry-pavlova-bc30d8.netlify.app/" # the base hostname & protocol for your site, e.g. https://example.github.io
-baseurl: "https://643fc7b70046b40de7274414--merry-pavlova-bc30d8.netlify.app/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 destination: public
 
 # Navigation
