@@ -3,7 +3,7 @@ subtitle: Now learning French
 description: >- # this means to ignore newlines until "baseurl:"
   I am currently learning as a web developer under the Apprenticeship Program.
 
-url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "https://tetetech-x61d-8ek9bl8hs-aratetete0619.vercel.app" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Navigation

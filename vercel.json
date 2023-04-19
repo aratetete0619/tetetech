@@ -6,22 +6,21 @@
   },
   "builds": [
     {
-      "src": "api/**/*.rb",
-      "use": "@vercel/ruby",
+      "src": "package.json",
+      "use": "@vercel/static-build",
       "config": {
-        "zeroConfig": true,
-        "includeFiles": "**"
+        "distDir": "_site"
       }
     }
   ],
   "routes": [
     {
-      "src": "/api/(.*)",
-      "dest": "/api/$1"
+      "src": "/(about|blog|any-other-page)/?",
+      "dest": "/$1.html"
     },
     {
       "src": "/(.*)",
-      "dest": "/index.html"
+      "dest": "/$1"
     }
   ]
 }
