@@ -1,4 +1,9 @@
 {
+  "functions": {
+    "api/**/*.rb": {
+      "runtime": "vercel-ruby@1.2.0"
+    }
+  },
   "build": {
     "env": {
       "BUNDLER_VERSION": "2.3.26"
