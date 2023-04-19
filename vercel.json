@@ -4,27 +4,17 @@
       "BUNDLER_VERSION": "2.3.26"
     }
   },
-  "builds": {
-    "src": "api/**/*.rb",
-    "use": "@vercel/ruby",
-    "config": {
-      "zeroConfig": true,
-      "includeFiles": "**"
+  "builds": [
+    {
+      "src": "api/**/*.rb",
+      "use": "@vercel/ruby",
+      "config": {
+        "zeroConfig": true,
+        "includeFiles": "**"
+      }
     }
-  },
+  ],
   "routes": [
-    {
-      "src": "/$",
-      "dest": "/index.html"
-    },
-    {
-      "src": "/about$",
-      "dest": "/about.html"
-    },
-    {
-      "src": "/blog$",
-      "dest": "/blog.html"
-    },
     {
       "src": "/api/(.*)",
       "dest": "/api/$1"
