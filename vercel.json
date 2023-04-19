@@ -1,0 +1,12 @@
+{
+  "build": {
+    "env": {
+      "BUNDLER_VERSION": "2.3.26"
+    },
+    "commands": [
+      "gem install bundler:$BUNDLER_VERSION",
+      "bundle _${BUNDLER_VERSION}_ install",
+      "vercel-ruby-build"
+    ]
+  }
+}
