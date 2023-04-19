@@ -132,7 +132,7 @@ DEPENDENCIES
   backports (~> 3.23)
   bundler (~> 2.3.7)
   faraday-retry
-  jekyll
+  jekyll (~> 4.2)
   jekyll-admin (~> 0.11.1)
   jekyll-feed (~> 0.17.0)
   jekyll-gist (~> 1.5.0)
