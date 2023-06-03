@@ -1,7 +1,9 @@
 <ul>
     {% for author in site.authors %}
-        <li>
+    <ul class="futuristic-list">
+        <li class="futuristic-list-item">
             <a href="/blog/authors/{{ author.username }}">{{ author.name }}</a>
         </li>
+    </ul>
     {% endfor %}
- </ul>
+</ul>

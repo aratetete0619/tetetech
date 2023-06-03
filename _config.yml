@@ -1,5 +1,5 @@
 title: teteteo619
-subtitle: Now learning French
+subtitle: Future blog
 description: >- # this means to ignore newlines until "baseurl:"
   I am currently learning as a web developer under the Apprenticeship Program.
 
@@ -25,14 +25,14 @@ urls:
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
-author_logo: 3098851805_technology__web__future__cutting_edge__robot__blue.png
+author_logo: main.jpeg
 author: tetete0619
 author_bio: Hi, my name is tetete. I've been learning web development in the Apprenticeship course.
 author_email: "ara.ct0619@gmail.com"
 author_location: Japan
 author_website_url: "https://github.com/aratetete0619"
 typewrite-text: I've been learning as a web developer under the Apprenticeship Program.
-hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
+hero_cover_img: future.jpeg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
 author_work_experiences:

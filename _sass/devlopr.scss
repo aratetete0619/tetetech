@@ -130,7 +130,7 @@ ul {
 body {
     background-color: var(--main-background-color) !important;
     color: var(--main-text-color) !important;
-    font-family: 'Quicksand', sans-serif !important;
+    font-family: 'DotGothic16', sans-serif !important;
     font-feature-settings: "kern" on;
     font-size: 1.4rem;
     font-variant-numeric: oldstyle-nums;
@@ -262,6 +262,11 @@ h5,
 h6 {
     color: var(--bold-color) !important;
     line-height: 1.1;
+
+}
+
+h2 {
+    padding-top: 20px;
 }
 
 a {
@@ -343,6 +348,10 @@ header {
 
 .card-title {
     margin-bottom: .75rem !important;
+}
+
+.card-body {
+    padding: 1.25rem !important;
 }
 
 /* Search Overlay */
@@ -764,10 +773,13 @@ header {
 }
 
 .imga {
-    max-width: 100%;
-    border: 1px solid #eee;
+    max-width: 80%;
+    max-height: 200px;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    margin: auto;
 }
-
 
 #profile-card {
     text-align: center;
@@ -1657,3 +1669,27 @@ footer {
 }
 
 /* Generic.Inserted & Diff Inserted */
+.futuristic-list {
+    list-style-type: none;
+    /* Remove bullets */
+    padding: 0;
+    margin: 0;
+    /* Remove margin */
+    text-align: left;
+    /* Align text to the left */
+    color: #ccc;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.futuristic-list-item {
+    /* Spacing between items */
+    border-bottom: 1px solid #444;
+    /* Minimalistic line */
+}
+
+.futuristic-list-item:last-child {
+    border-bottom: none;
+    /* Remove the border for the last item */
+}
