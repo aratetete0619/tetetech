@@ -4,11 +4,12 @@ author: teteteo619
 title:　ステートレスとステートフルのプロトコルであるHTTPとWebSocketを比べてみよう
 date: 2023-06-10
 thumbnail: /assets/img/posts/rhinoceros.png
-category:　HTTP, WebSocket
+category:　HTTP
 summary: HTTPのメリットとは？に出てくる問いに、ステートレスであることだ！という回答がよく見受けられる。この理由に対して、なぜステートレスが良いのか？またそれに対してステートフルで有名なWebSocketがなぜ良いのか比較することでステートフルとステートレスをうまく使いこなせるようになることを主旨にしている。
-keywords: HTTP, WebSocket
+keywords: HTTP
 permalink: /blog/http_and_websocket
 ---
+<br>
 
 ## HTTPとは？
 HTTP（HyperText Transfer Protocol）は、インターネット上で情報を送受信するためのプロトコル（通信の取り決め）です。一般的には、ウェブブラウザ（例えばGoogle ChromeやFirefox）とウェブサーバー（ウェブページやその他のデータを保管しているコンピューター）の間でデータの送受信を行う際に使用されます。
