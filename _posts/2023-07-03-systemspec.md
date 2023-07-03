@@ -3,7 +3,7 @@ layout: post
 author: teteteo619
 title: システムスペックを実装する
 date: 2023-07-03
-thumbnail: /assets/img/posts/hello.jpg
+thumbnail: /assets/img/posts/tokage.png
 category: Rspec
 summary: 今回は、下記の項目に対してシステムスペックを実装します。システムスペックとは、アプリケーションのプログラム全体が期待通りの挙動になっているかを確認するための統合テストです。
 keywords:
