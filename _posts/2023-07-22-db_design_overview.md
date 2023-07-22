@@ -1,7 +1,7 @@
 ---
 layout: post
 author: teteteo619
-title: データベース設計の基本と応用：ID導入と業務視点正規化の活用
+title: データベース設計の基本と応用 ~ ID導入と業務視点正規化の活用 ~
 date: 2023-07-22
 thumbnail: /assets/img/posts/owl.png
 category: db
