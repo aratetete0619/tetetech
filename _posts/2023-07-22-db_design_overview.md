@@ -5,8 +5,7 @@ title: データベース設計の基本と応用 ~ ID導入と業務視点正�
 date: 2023-07-22
 thumbnail: /assets/img/posts/owl.png
 category: db
-summary: 
-データベース設計の際には、「One Fact in One Place」を基本原則にし、正規化を行うことが重要です。その上で、ID導入や業務視点の正規化といった手法を取り入れることで更なる効率化を図ることができます。エンティティの選定、主キーの設定、ビジネス上の正規化が重要なポイントとなります。
+summary: データベース設計の際には、「One Fact in One Place」を基本原則にし、正規化を行うことが重要です。その上で、ID導入や業務視点の正規化といった手法を取り入れることで更なる効率化を図ることができます。エンティティの選定、主キーの設定、ビジネス上の正規化が重要なポイントとなります。
 keywords: db, sql
 permalink: /blog/db_design_overview
 ---
