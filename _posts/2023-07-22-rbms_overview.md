@@ -4,9 +4,9 @@ author: teteteo619
 title: RDBMS総論：Webシステム構築における重要性とその理由"
 date: 2023-07-22
 thumbnail: /assets/img/posts/lion.png
-category: RBMS
+category: RDBMS
 summary: Webシステムの構築に欠かせないRDBMS（リレーショナルデータベース管理システム）について解説しています。RDMNSはプログラムが簡単にデータベースにアクセスし、データ整合性を保ちながら複数ユーザーの同時利用を可能にすることができます。単に効率的にプログラムを作るのではなく、ビジネスにおける情報という価値をより効果的に提供するためのシステムとして位置付けられています。
-keywords: RBMS
+keywords: RDMBS
 permalink: /blog/rbms_overview
 ---
 # 1章 RDBMS総論
